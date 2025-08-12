@@ -1,0 +1,84 @@
+ %% NO MODIFIQUE NI ELIMINE ESTE ARCHIVO. %% 
+ %% Este archivo contiene información acerca de la instalación de una aplicación. %% 
+ %% Se utilizará para quitar automáticamente de su PC todos los componentes de la aplicación, si elige hacerlo. %% 
+
+
+NOTE: Inicio de la sección bootstrapper
+
+CONFIG: Title: "Mi_Bebe_Aprende"
+
+ACTION: RegKey: "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion", "SharedDLLs"
+
+ACTION: SystemFile: "C:\windows\system32\VB6STKIT.DLL"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: SystemFile: "C:\windows\system32\COMCAT.DLL"
+(El archivo en disco ya estaba actualizado)
+
+ACTION: SystemFile: "C:\windows\system32\VB6ES.DLL"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: SystemFile: "C:\windows\system32\stdole2.tlb"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: SystemFile: "C:\windows\system32\asycfilt.dll"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: SystemFile: "C:\windows\system32\olepro32.dll"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: SystemFile: "C:\windows\system32\oleaut32.dll"
+(El archivo en disco ya estaba actualizado)
+
+ACTION: SystemFile: "C:\windows\system32\msvbvm60.dll"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: DllSelfRegister: "C:\WINDOWS\SYSTEM32\COMCAT.DLL"
+
+ACTION: TLBRegister: "C:\WINDOWS\SYSTEM32\stdole2.tlb"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\SYSTEM32\olepro32.dll"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\SYSTEM32\oleaut32.dll"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\SYSTEM32\msvbvm60.dll"
+
+NOTE: Final de la sección bootstrapper
+
+NOTE: Inicializando el programa principal de instalación 'Setup1.exe'....
+
+ACTION: CreateDir: "C:\windows\profiles\usuario\Menú Inicio\Programas\Mi_Bebe_Aprende"
+
+ACTION: SharedFile: "C:\Archivos de programa\Mi_Bebe_Aprende\wmp.dll"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: SharedFile: "C:\windows\system32\TABCTES.DLL"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: SharedFile: "C:\windows\system32\tabctl32.ocx"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: SharedFile: "C:\windows\system32\CMDLGES.DLL"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: SharedFile: "C:\windows\system32\comdlg32.ocx"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: SharedFile: "C:\windows\system32\AgentCtl.dll"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: SharedFile: "C:\Archivos de programa\Mi_Bebe_Aprende\Mi_Bebe_Aprende.exe"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: DllSelfRegister: "C:\windows\system32\tabctl32.ocx"
+
+ACTION: DllSelfRegister: "C:\windows\system32\comdlg32.ocx"
+
+ACTION: DllSelfRegister: "C:\windows\system32\AgentCtl.dll"
+
+ACTION: ShellLink: "Mi_Bebe_Aprende", "Mi_Bebe_Aprende"
+
+ACTION: RegKey: "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion", "App Paths\Mi_Bebe_Aprende.exe"
+
+ACTION: RegValue: "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\Mi_Bebe_Aprende.exe", ""
+

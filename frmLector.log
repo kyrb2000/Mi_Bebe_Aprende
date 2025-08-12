@@ -1,0 +1,11 @@
+Línea 22: la clase RichTextLib.RichTextBox del control txtTexto2 no era una clase de control cargada.
+Línea 118: la clase RichTextLib.RichTextBox del control txtTexto no era una clase de control cargada.
+Línea 29: el nombre de la propiedad _ExtentX de txtTexto2 no es válido.
+Línea 30: el nombre de la propiedad _ExtentY de txtTexto2 no es válido.
+Línea 31: el nombre de la propiedad _Version de txtTexto2 no es válido.
+Línea 32: el nombre de la propiedad TextRTF de txtTexto2 no es válido.
+Línea 124: el nombre de la propiedad _ExtentX de txtTexto no es válido.
+Línea 125: el nombre de la propiedad _ExtentY de txtTexto no es válido.
+Línea 126: el nombre de la propiedad _Version de txtTexto no es válido.
+Línea 128: el nombre de la propiedad ScrollBars de txtTexto no es válido.
+Línea 129: el nombre de la propiedad TextRTF de txtTexto no es válido.
